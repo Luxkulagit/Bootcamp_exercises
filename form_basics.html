@@ -1,0 +1,73 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Information</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label> Name</label>
+            <input type="text" name="Your Name">
+
+        </div>
+        <div>
+            <label>PhoneNumber</label>
+            <input type="number" name="PhoneNumber">
+        </div>
+        <div>
+            <label>Emailaddress</label>
+            <input type="Email" name="Your Email address">
+        </div>
+
+        <div>
+            <label>Which taxi do you require</label>
+            <input type="radio" name="Taxi" value="Car"> Car
+            <input type="radio" name="Taxi" value="Van"> Van
+            <input type="radio" name="Taxi" value="Van"> Tuk Tuk
+        </div>
+        <div>
+            <label>Extras</label>
+            <input type="checkbox" name="Extras" value="BabySeat"> Baby Seat
+            <input type="checkbox" name="Extras" value="Wheelchair"> Wheelchair Access
+            <input type="checkbox" name="Extras" value="Stocktip"> Stock Tip
+        </div>
+        <div>
+            <label>Pickup Date and time</label>
+            <input type="datetime" name="Yourtime">
+        </div>
+        
+    
+        <div>
+            <label>Pickup Place</label>
+            <!-- Paces to pick up-->
+            <select name="Pickup place">
+                <option value="Germantown"> Germantown</option>
+                <option value="Gaithersburg"> Gaithersburg</option>
+                <option value="Clarksburg"> Clarksburg</option>
+                <option value="Boyds">Boyds</option>
+                <option value="Rockville"> Rockville</option>
+                </select>
+
+        </div>
+        <div>
+            <label> DropoffPlace</label>
+            <textarea name= "Special Instructions" rows = "0" cols = "0"> </textarea>
+        </div> 
+        <br>
+
+        <button> Submit </button>
+
+
+
+    </form>
+    
+
+
+
+</body>
+
+</html>
