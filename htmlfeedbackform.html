@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet" href ="style.css">
+    <style>
+    /*    input[type=text] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
+  
+}
+/*input[type="checkbox"],input[type="radio"]{
+    height:16px;
+    width:16px;
+    
+}*/
+/*
+label{
+    width:240px;
+    display:inline-block;
+    text-align:right;
+}
+
+textarea{
+    padding:16px;
+    font-size: 10px;
+}*/
+
+
+    </style>
+    <!--<style>
+        p {
+          border: 2px solid powderblue;
+          padding: 30px;
+        }
+        </style> -->
+        <!--<style>
+            .center {
+              text-align: center;
+              border: 3px solid black;
+            }
+            </style> -->
+</head>
+
+<body>
+    
+    <form>
+        <h2 style=text-align:center>Feedback Form</h2>
+        <h5><strong>Tell us something positive that happened to you today.</strong></h5>
+
+        <table>
+            <tr>
+                <td> <label for="Username"><strong>Name</strong></label></td>
+                <td> <input type="text" id="Username" type="text " placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td> <label for="Useremail"><strong>Email</strong></label></td>
+                <td> <input type="email" id="Useremail" type="text " placeholder="Enter your email address"></td>
+            </tr>
+            <tr>
+                <td> <label for="Experience"><strong>On a scale of 1-10, how good was it?</strong></label></td>
+                <td> <input type="text" id="Experience" type="number" placeholder="Enter a number between 1 and 10">
+                </td>
+            </tr>
+            
+            <tr>
+                <td> <label for ="Place"><strong>Where did it happen?</strong> </label></td>
+                <td> <select name ="Place">
+                        <option value="At Home"> At Home</option>
+                        <option value="Workplace">Workplace</option>
+                        <option value="Mall"> Mall</option>
+
+                    </select> </td>
+
+            </tr>
+            
+            <tr>
+                <td> <label for="Time"> At what time of day did it happen?</label></td>
+                <td> <input type="radio" id="Morning" name="Time" value="Morning">
+                    <label for="Morning"><strong>Morning</strong></label><br>
+                    <input type="radio" id="Afternoon" name="Time" value="Aternoon">
+                    <label for="Afternoon"><strong>Afternoon</strong></label><br>
+                    <input type="radio" id="Evening" name="Time" value="Evening">
+                    <label for="Evening"><strong>Evening</strong></label><br><br>
+                </td>
+            </tr>
+            
+            <tr>
+                <td> <label for="Emotions">What condition did you experience? <br> (Select all that apply)</label></td>
+                <td>
+                    <input type="checkbox" id="Emotions" name="Emotions" value="Excited">
+                    <label for="Emotions"> Excited</label><br>
+                    <input type="checkbox" id="Emotions" name="Emotions" value="Humbled">
+                    <label for="Emotions"> Humbled</label><br>
+                    <input type="checkbox" id="Emotions" name="Emotions" value="Elated">
+                    <label for="Emotions"> Elated</label><br>
+                    <input type="checkbox" id="Emotions" name="Emotions" value="Loved">
+                    <label for="Emotions"> Loved</label><br>
+                    <input type="checkbox" id="Emotions" name="Emotions" value="Enthusiastic">
+                    <label for="Emotions"> Enthusiastic</label><br><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="Positive Experience">Please describe your positive Experience</label></td>
+                <td> <textarea name="Experience" rows="5" cols="30" type="text"
+                        placeholder="Enter your experience here..."></textarea> </td>
+
+            </tr>
+
+
+        </table>
+        
+        <input  type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
